@@ -2,6 +2,7 @@ import { Buffer } from "node:buffer";
 
 export default {
   async fetch (request) {
+    console.log("🔑 GEMINI_API_KEY =", env.GEMINI_API_KEY);
     if (request.method === "OPTIONS") {
       return handleOPTIONS();
     }
