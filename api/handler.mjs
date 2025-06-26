@@ -1,3 +1,4 @@
+console.log("🔑 GEMINI_API_KEY =", process.env.GEMINI_API_KEY);
 import worker from "../src/worker.mjs";
 
 export default worker.fetch;
